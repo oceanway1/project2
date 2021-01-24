@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "./service.css";
+import "../components/views/service.css";
 
 export default function Service(props) {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import VideoComponent from "./VideoComponent";
-import image from "../components/galaxy.jpg"
+import image from "../components/views/galaxy.jpg"
 
 const data = require("../../src/videoData.json")
 

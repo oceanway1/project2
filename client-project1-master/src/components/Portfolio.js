@@ -1,13 +1,3 @@
-// import React from "react";
-
-// export default function Portfolio(props) {
-//   return (
-//     <div>
-//       <h2>Luke needs help!!!!!!!!</h2>
-//     </div>
-//   );
-// }
-
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
