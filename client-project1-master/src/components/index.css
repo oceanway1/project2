@@ -1,0 +1,40 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+
+
+.player-wrapper {
+  position: relative;
+  margin: 0 -1px 0 0;
+  padding-top: 56.25%;
+}
+ 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* div {
+  font-size: 30px;
+} */
+
+.cursive {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
+}
+
+.inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800{
+font-size: 1.5rem;
+}
