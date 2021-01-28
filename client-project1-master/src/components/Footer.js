@@ -10,7 +10,7 @@ export default function Footer() {
             <Container fluid={true}>
                 <Row className=" border-top flex justify-between p-3">
                     <Col className="text-white p-0" md={3} sm={12}>
-                        Catherine Sutherland
+                        Canadian Crescendo
                     </Col>
                     <Col className="text-white p-0 " md={6}>
                         This site was made by Luke N

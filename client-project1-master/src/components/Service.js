@@ -1,10 +1,12 @@
 import React, { Fragment } from "react";
 import "../components/views/service.css";
+import Contact from './ContactForm';
 
 export default function Service(props) {
   return (
     <div>
-      <p class='text-white'>Let's talk</p>
+      <Contact/>
+      {/* class='text-white */}
       <br>
       </br>
       <div className="hourly_rate">

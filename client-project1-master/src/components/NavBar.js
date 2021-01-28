@@ -10,7 +10,7 @@ export default function NavBar() {
                 <nav className="flex">
                     <NavLink
                         to="/" exact
-                        activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-400"
+                        activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                         className="inflex-flex items-center py-6 px-3 mr-4 text-white hover:text-white text-5xl font-bold cursive tracking-widest">
                         Canadian Crescendo
                     </NavLink>
