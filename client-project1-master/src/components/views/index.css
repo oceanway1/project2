@@ -3,7 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 
-
+#root {
+  background-color:"#85DCB";
+}
 .player-wrapper {
   position: relative;
   margin: 0 -1px 0 0;

@@ -2,7 +2,8 @@ import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import VideoComponent from "./VideoComponent";
-
+import Footer from './Footer'
+import Description from './Description';
 
 const data = require("../../src/videoData.json")
 
@@ -36,17 +37,21 @@ export default function Portfolio(props) {
     }
   };
   return (
-     
-      <div>
-        <VideoComponent
-          url="https://www.youtube.com/watch?v=ElvytQCWmiI&t=13s"
-        />
-        <br></br>
-        <Carousel responsive={responsive}>
-          {allVideoData}
-        </Carousel>
-      </div>
-  
+
+    <div className="" style={{background:"#85DCB"}}>
+      <Description />
+      <VideoComponent
+        url="https://www.youtube.com/watch?v=ElvytQCWmiI&t=13s"
+      />
+      <br></br>
+      <Carousel responsive={responsive}>
+        {allVideoData}
+      </Carousel>
+      <Footer />
+    </div>
+
+
+
   );
 
 }
