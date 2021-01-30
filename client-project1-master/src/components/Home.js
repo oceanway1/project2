@@ -10,7 +10,7 @@ const data = require("../../src/videoData.json")
 
 export default function Home() {
   return (
-    <nmain>
+    <main>
       <img
         src={image}
         alt="NO IMAGEEEEE"
@@ -22,6 +22,6 @@ export default function Home() {
         </h1>
       </section>
       <Footer />
-    </nmain>
+    </main>
   )
 }

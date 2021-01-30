@@ -19,6 +19,8 @@ button {
   
   .form > h1 {
     margin-bottom: 30px;
+    margin-top: 2vh;
+    font-size:xx-large;
   }
   
   .form > input,
