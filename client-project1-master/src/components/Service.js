@@ -1,14 +1,15 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "../components/views/service.css";
 import Contact from './ContactForm';
+import Footer from "./Footer";
 
 export default function Service(props) {
   return (
     <div>
-      <Contact/>
-      {/* class='text-white */}
+      <Contact />
       <br>
       </br>
+
       <div className="hourly_rate">
         <h4>Hourly Rate</h4>
         <h5>Avaiable now</h5>
@@ -30,6 +31,7 @@ export default function Service(props) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

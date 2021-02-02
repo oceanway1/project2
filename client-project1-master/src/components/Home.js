@@ -1,17 +1,12 @@
 import React from "react";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import VideoComponent from "./VideoComponent";
 import image from "../components/views/nat.jpg"
 import Footer from './Footer'
-
-const data = require("../../src/videoData.json")
-
 
 export default function Home() {
   return (
     <main>
-      <img
+      <img  class="w-16 md:w-32 lg:w-48"
         src={image}
         alt="NO IMAGEEEEE"
         className="absolute object-cover w-full h-full"

@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "../components/views/about.css";
-import mainPic from "./views/service2.jpg"
 import secondImage from "./views/service1.jpg"
 import thirdImage from "./views/service4.jpg"
+import Footer from "./Footer"
 
 export default function About(props) {
   return (
@@ -10,7 +10,7 @@ export default function About(props) {
       <div className="primary">
         <div className="primary_text">
           <div>
-            <h1>
+            <p>
               <span>
                 Hire an Editor
         <br />
@@ -18,7 +18,7 @@ export default function About(props) {
                 <br />
                 Partner
         </span>
-            </h1>
+            </p>
           </div>
         </div>
       </div>
@@ -42,28 +42,7 @@ export default function About(props) {
           <img src={secondImage} alt="featuredImage" />
         </div>
       </div>
-      {/* <br></br>
-      <div className="hourly_rate">
-        <h4>Hourly Rate</h4>
-        <h4>Avaiable now</h4>
-        <div className="hourly__text">
-          <div className='div_text'>
-            <h5>$16</h5>
-            <p>Ena Style</p>
-            <p>Only Premiere Pro</p>
-          </div>
-          <div className='div_text'>
-            <h5>$18</h5>
-            <p>Dio Style</p>
-            <p>Film + Premiere Pro</p>
-          </div>
-          <div className='div_text'>
-            <h5>$20</h5>
-            <p>Tria Style</p>
-            <p>Film + Premiere Pro + After Effects</p>
-          </div>
-        </div>
-      </div> */}
+      <Footer />
     </div >
   );
 }

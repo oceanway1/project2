@@ -15,6 +15,7 @@ export default function Footer() {
                     <Col className="text-white p-0 " md={6}>
                         This site was made by Luke N
                     </Col>
+                    
                 </Row>
             </Container>
         </footer>

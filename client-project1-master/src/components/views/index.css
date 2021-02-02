@@ -2,10 +2,6 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
-
-#root {
-  background-color:"#85DCB";
-}
 .player-wrapper {
   position: relative;
   margin: 0 -1px 0 0;
@@ -17,10 +13,6 @@
   top: 0;
   left: 0;
 }
-
-/* div {
-  font-size: 30px;
-} */
 
 .cursive {
   font-family: "Amatic SC", cursive;
@@ -34,7 +26,7 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 20vh;
 }
 
 .inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800{
