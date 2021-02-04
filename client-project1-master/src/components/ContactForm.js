@@ -55,9 +55,11 @@ const Contact = () => {
                 onChange={(e) => setMessage(e.target.value)}
             >
             </textarea>
-            <button type="submit" style={{ background: loader ? "#ccc" : "rgb(2, 2, 110)" }}
+            
+            <button type="submit" style={{ background: loader ? "#ccc" : "linear-gradient(#ff0000e3,#5f2424, #320f0f)" }}
             >Submit
             </button>
+            
         </form>
     )
 }

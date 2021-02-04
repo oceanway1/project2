@@ -29,6 +29,33 @@
   font-size: 20vh;
 }
 
-.inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800{
+.inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800 {
 font-size: 1.5rem;
+}
+
+.header {
+  background-image: linear-gradient(#ff0000e3,#510707, black);
+
+}
+
+
+.main_name {
+  display: flex;
+  color: black;
+  background: white;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Amatic SC";
+  margin-right: 2vw;
+  line-height: 1;
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  margin-top: 0.4vh;
+}
+
+.active {
+  background-color: black;
+  color: white
 }

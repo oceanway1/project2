@@ -13,7 +13,7 @@ export default function Footer() {
                         Canadian Crescendo
                     </Col>
                     <Col className="text-white p-0 " md={6}>
-                        This site was made by Luke N
+                        This site was made by LN 
                     </Col>
                     
                 </Row>

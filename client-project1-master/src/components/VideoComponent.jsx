@@ -14,7 +14,6 @@ const VideoComponent = props => {
         height='100%'
       />
     </div>
-
   )
 }
 export default VideoComponent;

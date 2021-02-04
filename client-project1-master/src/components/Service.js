@@ -12,7 +12,7 @@ export default function Service(props) {
 
       <div className="hourly_rate">
         <h4>Hourly Rate</h4>
-        <h5>Avaiable now</h5>
+        <h5>Available now</h5>
         <div className="hourly__text">
           <div className='div_text'>
             <h5>$16</h5>
