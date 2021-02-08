@@ -15,9 +15,11 @@ button {
     color: white;
     padding-left: 1vw;
     padding-right: 52vw;
+    margin-bottom: 3vh;
   }
   
   .form > h1 {
+    padding-top: 3vw;
     margin-bottom: 30px;
     margin-top: 2vh;
     font-size:xx-large;

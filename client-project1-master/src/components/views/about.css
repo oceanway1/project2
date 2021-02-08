@@ -60,30 +60,28 @@
   object-fit: cover;
 }
 
-.hourly_rate {
-  color:white;
-}
-
-.hourly_rate h4 {
-  text-align: center;
-  font-size: xx-large;
-  padding-top: 2vh;
-  padding-bottom: 1vh;
-}
-.hourly__text {
-  color: white;
-  text-align: left;
-  display: flex;
-  justify-content: space-around;
-  /* display: block;
-  position: flex; */
-}
 
 .div_text {
   text-align: center;
   color: white;
   padding-bottom: 3vh;
 }
+
+/* .hourly_rate h4 {
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+} */
+/* .hourly__text {
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: space-around; */
+  /* display: block;
+  position: flex; */
+/*  */
+
 
 
 @media only screen and (min-width: 350px) {

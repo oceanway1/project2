@@ -21,24 +21,30 @@ export default function NavBar() {
 
                     <NavLink
                         to="/service"
-                        className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
-                        activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
+                        className="secondary_name"
+                        activeClassName="active"
+                    // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
+                    // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
                         Service
                     </NavLink>
 
                     <NavLink
                         to="/portfolio"
-                        className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
-                        activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
+                        className="secondary_name"
+                        activeClassName="active"
+                    // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
+                    // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
                         Portfolio
                     </NavLink>
 
                     <NavLink
                         to="/About"
-                        className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
-                        activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
+                        className="secondary_name"
+                        activeClassName="active"
+                    // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
+                    // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
                         About me!
                     </NavLink>
