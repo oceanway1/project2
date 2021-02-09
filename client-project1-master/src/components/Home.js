@@ -6,7 +6,7 @@ import Footer from './Footer'
 export default function Home() {
   return (
     <main>
-      <img  class="w-16 md:w-32 lg:w-48"
+      <img  className="w-16 md:w-32 lg:w-48"
         src={image}
         alt="NO IMAGEEEEE"
         className="absolute object-cover w-full h-full"

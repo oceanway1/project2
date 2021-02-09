@@ -22,9 +22,9 @@ export default function NavBar() {
                     <NavLink
                         to="/service"
                         className="secondary_name"
-                        activeClassName="active"
+                        activeClassName="secondary_active"
                     // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
-                    // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
+                    // secondary_ClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
                         Service
                     </NavLink>
@@ -32,7 +32,7 @@ export default function NavBar() {
                     <NavLink
                         to="/portfolio"
                         className="secondary_name"
-                        activeClassName="active"
+                        activeClassName="secondary_active"
                     // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
                     // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
@@ -42,11 +42,11 @@ export default function NavBar() {
                     <NavLink
                         to="/About"
                         className="secondary_name"
-                        activeClassName="active"
+                        activeClassName="secondary_active"
                     // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
                     // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
-                        About me!
+                        About me
                     </NavLink>
 
                 </nav>

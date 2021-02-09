@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 export default function Footer() {
 
     return (
-        <footer className="" style={{ background: "#272F46", opacity: "60%" }}>
+        <footer className="" style={{ background: "black", opacity: "60%" }}>
             <Container fluid={true}>
                 <Row className=" border-top flex justify-between p-3">
                     <Col className="text-white p-0" md={3} sm={12}>

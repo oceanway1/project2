@@ -2,19 +2,22 @@
   color:white;
   margin-top: 4vh;
   margin-bottom: 7vh;
+  text-align: justify;
   }
   
 .hourly_rate h4 {
+  margin-top: 5vw;
   text-align: center;
-  font-size: 60px;
-  padding-top: 2vh;
-  padding-bottom: 1vh;
+  font-size: 32px;
+  /* padding-top: 2vh;
+  padding-bottom: 1vh; */
+  font-weight: bold;
   }
 
 .hourly_rate h5 {
   text-align: center;
   margin-bottom: 1vh;
-  font-size: 35px;
+  font-size: 30px;
   }
 
 .hourly__text {
@@ -31,4 +34,11 @@
     color: white;
     padding-bottom: 3vh;
   }
-  
+
+  p {
+    font-size: 24px;
+  }
+
+  label {
+    font-size: 23px;
+  }
