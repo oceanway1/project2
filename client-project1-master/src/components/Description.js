@@ -11,10 +11,10 @@ export default function Description(props) {
                 <Row>
                     <Col md={8} sm={12} className="mt-5 ">
                         <h1 className="py-2 px-4 d-flex text-4xl text-white font-extrabold">
-                            Projects that make a difference
+                            Crescendo's Collection
                         </h1>
                         <h3 className='py-2 px-4 pb-16 text-2xl text-white  '>
-                            Check out my projects below
+                            Demo Reel coming soon
                         </h3>
                     </Col>
                 </Row>

@@ -20,16 +20,6 @@ export default function NavBar() {
                     </NavLink>
 
                     <NavLink
-                        to="/service"
-                        className="secondary_name"
-                        activeClassName="secondary_active"
-                    // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
-                    // secondary_ClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
-                    >
-                        Service
-                    </NavLink>
-
-                    <NavLink
                         to="/portfolio"
                         className="secondary_name"
                         activeClassName="secondary_active"
@@ -40,19 +30,32 @@ export default function NavBar() {
                     </NavLink>
 
                     <NavLink
-                        to="/About"
+                        to="/Sutherland"
                         className="secondary_name"
                         activeClassName="secondary_active"
                     // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
                     // activeClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
                     >
-                        About me
+                        Sutherland
                     </NavLink>
+                    
+                    <NavLink
+                        to="/service"
+                        className="secondary_name"
+                        activeClassName="secondary_active"
+                    // className="inflex-flex items-center py-3 px-3 my-6 text-white hover:text-white text-2xl"
+                    // secondary_ClassName="bg-gradient-to-r from-yellow-400 to-blue-500 focus:from-purple-900 focus:to-blue-300"
+                    >
+                        Contact
+                    </NavLink>
+
+
+
 
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon
-                        url="https://www.facebook.com/catherine.sutherland.25"
+                        url="https://www.facebook.com/CanadianCrescendo"
                         className="mr-4"
                         target="_blank"
                         fgColor="#fff"
@@ -65,12 +68,12 @@ export default function NavBar() {
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }}
                     />
-                    <SocialIcon
+                    {/* <SocialIcon
                         url="https://www.linkedin.com/in/catherine-sutherland-27967b165/"
                         className="mr-4"
                         target="_blank"
                         fgColor="#fff"
-                        style={{ height: 35, width: 35 }} />
+                        style={{ height: 35, width: 35 }} /> */}
                 </div>
             </div>
         </header>

@@ -1,0 +1,144 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  height: auto;
+}
+.primary {
+  align-content: center;
+  background: url("service1.jpg") no-repeat; 
+  background-size: cover;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 1px solid;
+  margin-bottom: 10vh;
+}
+.primary_text {
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2.5vw ;
+  color: white;
+  padding-top: 5vh;
+  /* padding-left: 12vh; */
+}
+
+.secondary {
+  display: flex;
+  align-items: center;
+}
+.secondary__text {
+  margin: 10px 5% 10px 5%;
+  width: 40%;
+  line-height: 1.5;
+}
+.secondary__text p {
+  text-align: center;
+  font-size: 1.75vw;
+  color: white;
+}
+.secondary__text h2 {
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  padding-bottom: 2vh;
+}
+
+.secondary__image {
+  max-width: 50%;
+  height: 40%;
+  display:block;
+  padding-bottom: 2vh;
+}
+
+.secondary__image img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+.div_text {
+  text-align: center;
+  color: white;
+  padding-bottom: 3vh;
+}
+
+/* .hourly_rate h4 {
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+} */
+/* .hourly__text {
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: space-around; */
+  /* display: block;
+  position: flex; */
+/*  */
+
+
+
+@media only screen and (min-width: 350px) {
+  .secondary__image img {
+    width: 100%;
+      height: 250px;
+      object-fit: fill;
+  }
+
+  .secondary__text p {
+    font-size: 2.4vw;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .secondary__image img {
+    width: 100%;
+      height: 400px;
+      object-fit: fill;
+  }
+
+  .secondary__text p {
+    font-size: 2.4vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .secondary__image img {
+    width: 100%;
+      height: 400px;
+      object-fit: fill;
+  }
+
+  .secondary__text p{
+    font-size: 2.4vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .secondary__image img {
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+  }
+
+  .secondary__text p {
+    font-size: 1.4vw;
+  }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .primary_text {
+    color: aliceblue;
+    padding-top: 23vh;
+    padding-left: 3vh;
+  }
+}

@@ -4,7 +4,8 @@ import Home from "./components/Home";
 import Service from "./components/Service";
 import Portfolio from "./components/Portfolio";
 import NavBar from "./components/NavBar";
-import About from "./components/About";
+import Sutherland from "./components/Sutherland";
+
 
 export default function App() {
     return (
@@ -13,9 +14,9 @@ export default function App() {
         
             <Switch>
                 <Route component={Home} path='/' exact />
-                <Route component={Service} path='/service' />
                 <Route component={Portfolio} path='/portfolio' />
-                <Route component={About} path='/about' />
+                <Route component={Sutherland} path='/sutherland' />
+                <Route component={Service} path='/service' />
 
             </Switch>
         </BrowserRouter>

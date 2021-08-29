@@ -2,6 +2,8 @@ import React from "react";
 import "../components/views/service.css";
 import Contact from './ContactForm';
 import Footer from "./Footer";
+// import image from "../components/views/contactpage.png"
+import image from "../components/views/homepic.png"
 
 export default function Service(props) {
   return (
@@ -11,15 +13,15 @@ export default function Service(props) {
         <h5>Available now</h5>
         <div className="hourly__text">
           <div className='div_text'>
-            <h5>$16</h5>
+            {/* <h5>$16</h5> */}
             <p>Only Premiere Pro</p>
           </div>
           <div className='div_text'>
-            <h5>$18</h5>
+            {/* <h5>$18</h5> */}
             <p>Film + Premiere Pro</p>
           </div>
           <div className='div_text'>
-            <h5>$20</h5>
+            {/* <h5>$20</h5> */}
             <p>Film + Premiere Pro + After Effects</p>
           </div>
         </div>
